@@ -13,6 +13,12 @@
         android:theme="@style/Theme.TrueLove"
         tools:targetApi="31">
         <activity
+            android:name=".activity_message"
+            android:exported="false" />
+        <activity
+            android:name=".add_profile_picture"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

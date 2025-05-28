@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/login"
+    android:padding="24dp">
+
+    <ImageView
+        android:id="@+id/selected_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/image_placeholder"
+        android:contentDescription="Selected Image" />
+
+    <Button
+        android:id="@+id/select_image_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundc="@drawable/select_image_button_background2"
+        android:elevation="4dp"
+        android:fontFamily="sans-serif-medium"
+        android:padding="12dp"
+        android:text="Upload Image"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/upload_image_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/upload_image_button_background"
+        android:elevation="4dp"
+        android:fontFamily="sans-serif-medium"
+        android:padding="12dp"
+        android:text="Skip"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+</LinearLayout>
