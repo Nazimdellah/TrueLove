@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
-    android:padding="8dp">
+    android:padding="8dp"
+    tools:context=".activity_message">
 
     <TextView
         android:id="@+id/match_name"
@@ -13,7 +15,8 @@
         android:layout_weight="1"
         android:textSize="16sp"
         android:textColor="@android:color/black"
-        android:padding="8dp" />
+        android:padding="8dp"
+        tools:text="Sample Match Name" />
 
     <Button
         android:id="@+id/message_button"
@@ -21,5 +24,6 @@
         android:layout_height="wrap_content"
         android:text="Message"
         android:textColor="@android:color/white"
-        android:background="@drawable/button_background" />
+        android:background="@drawable/button_background"
+        tools:ignore="ButtonStyle" />
 </LinearLayout>

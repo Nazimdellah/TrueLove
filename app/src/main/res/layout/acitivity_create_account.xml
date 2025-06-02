@@ -101,7 +101,8 @@
         android:id="@+id/google_sign_in_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="96dp"
         android:background="@drawable/button_background"
         android:drawableStart="@drawable/logo_google"
         android:drawablePadding="8dp"
@@ -115,19 +116,17 @@
         android:textColor="@android:color/white"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/login_link" />
 
     <ImageView
         android:id="@+id/google_logo"
         android:layout_width="48dp"
         android:layout_height="48dp"
-        android:layout_marginTop="8dp"
         android:src="@drawable/logo_google"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.117"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/google_sign_in_button" />
+        tools:layout_editor_absoluteY="487dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -16,7 +16,7 @@
             android:name=".activity_message"
             android:exported="false" />
         <activity
-            android:name=".add_profile_picture"
+            android:name=".profileActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
